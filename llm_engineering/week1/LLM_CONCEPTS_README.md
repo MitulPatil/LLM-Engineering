@@ -167,6 +167,18 @@ The **context window** is the maximum number of tokens a model can see at once.
 - Measured in tokens
 - Old messages drop when full
 
+### Important Clarification (Very Important)
+
+- The model does NOT remember past conversations permanently.
+
+- Context window ≠ long-term memory.
+
+#### Each request:
+
+- Re-sends the entire context
+
+- The model recomputes everything from scratch
+
 ### 🔹 Simple Example
 ```
 User message + history must fit inside window
