@@ -200,7 +200,6 @@ if generate_button:
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: gray; padding: 2rem 0;'>
-    <p>💡 <b>Tip:</b> Streamlit automatically supports dark mode! Toggle it in Settings (☰ menu) → Theme</p>
-    <p style='font-size: 0.9em;'>Built with Streamlit & Gemini AI | Made with ❤️</p>
+    <p style='font-size: 0.9em;'>Built By Mitul Patil | Made with ❤️</p>
 </div>
 """, unsafe_allow_html=True)
